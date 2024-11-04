@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <br />
+    <h1>PrimeView Movie Provider Website</h1>
+  <br />
+  <img src="./docs/landing.png" alt="Onbording Screen"  width="100%" height="auto"/>
+  <br />
+  <div>
+    <br/>
+    <img src="https://img.shields.io/badge/-NexJS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000020" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Framer_Motion-black?style=for-the-badge&logoColor=white&logo=framermotion&color=34A853" alt="Expo" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=TypeScript&color=3178C6" alt="three.js" />
+    <img src="https://img.shields.io/badge/-ReactJS-black?style=for-the-badge&logoColor=white&logo=React&color=61DAFB" alt="tailwindcss" />
+  </div>
 
-## Getting Started
+  <h3 align="center">Day 2 of <b><i>30Days-30Apps Challenge</i> </b></h3>
+</div>
 
-First, run the development server:
+## 📋 <a name="table">Table of Contents</a>
+
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+6. 🔗 [Assets](#links)
+
+## <a name="introduction">🤖 Introduction</a>
+
+Find book, and drive the car of your dreams with DriveEase! Experience seamless car rentals with our user-friendly app. Offering a wide range of vehicules, instant booking and 24/7
+
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- React
+- NextJS
+- TypeScript
+- FramerMotion
+
+## <a name="features">🔋 Features</a>
+
+👉 **Get Started**:  an essential component during onboarding and user engagement <br />
+👉 **React Navigation**: used for managing navigation in React applications<br />
+👉 **Motion Frame**:  play a crucial role in shaping the user experience. <br />
+
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [NextJS](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/DarkShadowCoder/PrimeView-Website.git
+cd PrimeView-Website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Installation**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install the project dependencies using npm:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+```
 
-## Learn More
+**Running the Project**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npx expo start --android
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open ExpoGo in your mobile phone and scan QR code.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## <a name="links">🔗 Assets</a>
+<details>
+  <summary><code> Interface ScreenShots</code></summary>
+  <img src="./docs/screen1.png" width="900px" height="350" style="border-radius: 25px" />
 
-## Deploy on Vercel
+</details>
+This App is based on <a href="https://www.behance.net/isaiselvi">@IsaiselviP</a>'s design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ 
